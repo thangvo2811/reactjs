@@ -1,12 +1,6 @@
 import { useState } from "react";
 import "./App.scss";
-// import Form from "./components/form/Form";
-// import Form2 from "./components/form/Form2";
-// a
-// import DropDown from "./components/DropDown";
-// import SideBarMenu from "./components/SideBarMenu";
-// import useClickOutSide from "./hooks/useClickOutSide";
-import MovieSearchApp from "./components/MovieSearchApp";
+import SignUpFormFinal from "./components/form/SignUpFormFinal";
 
 function App() {
   // const [show, setShow] = useState(false);
@@ -24,7 +18,7 @@ function App() {
     //   <DropDown></DropDown>
     // </div>
     <div>
-      <MovieSearchApp></MovieSearchApp>
+      <SignUpFormFinal></SignUpFormFinal>
     </div>
   );
 }
