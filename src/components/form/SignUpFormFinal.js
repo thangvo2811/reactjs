@@ -173,6 +173,8 @@ const SignUpFormFinal = () => {
   );
 };
 
+//destructuring
+
 const MyInput = ({ label, ...props }) => {
   const [field, meta] = useField(props);
   console.log("Meta", meta);
